@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It's simple to sort only through lines of code 
+    that have been modified because they are marked 
+    with "-"(old version) and "+"(new version) 
+    symbols, making it easier to spot a typo, as you 
+    don't have to look through every single line of 
+    code in a long file.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    By not having to remember changes in order to 
+    fix bugs. If something needs to be reversed to 
+    it's previous state in order to work, due to new 
+    bugs, than it is much easier to fix the bug 
+    sometimes by going back to previous bug free 
+    versions of the code.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    With Google Docs you can reference previous 
+    versions of a file saved automatically by 
+    you and others at different points in time.
+    Manual Git commits, mean you get to chose the
+    moment in which changes get saved.  
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because coding projects often contain many files 
+    that work together.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log provides the results of your commit 
+    history, and git diff can provide you with the 
+    different changes between files for each commit.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because even if you do make mistakes, there are 
+    previous versions saved, which can be found, and 
+    checked out when things break. The location of the
+    commit can be identified with git checkout, and checking
+    project in browser at different history commit
+    points. Git diff can then be used to track the bug.
+    Able to take bigger risks, w/o worries of not finding a bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try using Git to break some stuff, 
+    and then go back to fix it. 

@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+When you initialize a git repository it creates an untracked directory named .git inside of the directory that you are working in. You need it, because that .git directory stores metadata that tracks a history of commits for your directory.
