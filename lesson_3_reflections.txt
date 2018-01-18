@@ -17,3 +17,7 @@ need to be added to the master branch at some point.
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 So that you can work on your files, and know what changes have been updated into the master while you are working offline.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would email large documents back and forth, and it would be a nightmare communication endeavour. I can't think of anything that would be easier.
