@@ -13,3 +13,7 @@ Cloning is making copies of repositories with all their contents, and their comm
 Forks are the equivalent of cloning, but only within GitHub. Branches are for working on things such as experimental code, or 
 refactoring, or fixing bugs, without affecting the master branch with working code. A branch is a work in progress that may 
 need to be added to the master branch at some point.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+So that you can work on your files, and know what changes have been updated into the master while you are working offline.
